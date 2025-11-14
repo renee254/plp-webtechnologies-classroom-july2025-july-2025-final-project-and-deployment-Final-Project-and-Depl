@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Books - Galaxy Pages Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">Galaxy Pages Hub</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="browse.html" class="nav-link active">Browse Books</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link" id="themeToggle">🌙</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="favorites-btn" id="favoritesBtn">
+                        ❤️ <span id="favCount">0</span>
+                    </button>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Browse Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Browse Our Collection</h1>
+            <p class="page-subtitle">Discover your next great read from our cosmic library</p>
+        </div>
+    </section>
+
+    <!-- Filter & Search Section -->
+    <section class="browse-controls">
+        <div class="container">
+            <div class="controls-wrapper">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search books by title or author...">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Books</button>
+                    <button class="filter-btn" data-category="fiction">Fiction</button>
+                    <button class="filter-btn" data-category="sci-fi">Sci-Fi</button>
+                    <button class="filter-btn" data-category="fantasy">Fantasy</button>
+                    <button class="filter-btn" data-category="mystery">Mystery</button>
+                    <button class="filter-btn" data-category="romance">Romance</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Grid -->
+    <section class="browse-section">
+        <div class="container">
+            <div class="books-grid" id="booksGrid">
+                <!-- Books will be loaded dynamically -->
+            </div>
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>No books found matching your criteria. Try a different search!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Galaxy Pages Hub</h3>
+                    <p>Your cosmic destination for extraordinary reads</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse Books</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Galaxy Pages Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="books.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

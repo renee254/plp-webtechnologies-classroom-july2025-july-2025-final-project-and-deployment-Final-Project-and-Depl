@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Galaxy Pages Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">Galaxy Pages Hub</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="browse.html" class="nav-link">Browse Books</a></li>
+                        <li><a href="about.html" class="nav-link active">About</a></li>
+                        <li><a href="#" class="nav-link" id="themeToggle">🌙</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="favorites-btn" id="favoritesBtn">
+                        ❤️ <span id="favCount">0</span>
+                    </button>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">About Galaxy Pages Hub</h1>
+            <p class="page-subtitle">Our story among the stars</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <div class="about-story">
+                <div class="story-text">
+                    <h2>Our Cosmic Journey</h2>
+                    <p>Galaxy Pages Hub was born from a simple dream: to create a space where readers from all corners of the universe could discover stories that transport them to new worlds. Founded in 2020 by a group of passionate book lovers and astronomers, we believe that every book is a constellation of ideas, waiting to be explored.</p>
+                    <p>Our mission is to connect readers with books that spark imagination, ignite curiosity, and expand horizons. Whether you're seeking thrilling adventures, heartwarming tales, or mind-bending mysteries, we've curated a collection that spans genres and galaxies.</p>
+                    <p>Join us on this literary voyage through the cosmos of storytelling. Your next great adventure awaits among our pages.</p>
+                </div>
+                <div class="story-image">
+                    <div class="placeholder-image">
+                        <span class="emoji-large">🌌</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <span class="value-icon">🎯</span>
+                        <h3>Curated Excellence</h3>
+                        <p>Every book in our collection is carefully selected for quality and impact.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="value-icon">🌍</span>
+                        <h3>Diverse Voices</h3>
+                        <p>We celebrate stories from authors of all backgrounds and perspectives.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="value-icon">💡</span>
+                        <h3>Reader First</h3>
+                        <p>Your reading experience and satisfaction are our top priorities.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="value-icon">🚀</span>
+                        <h3>Innovation</h3>
+                        <p>We're constantly exploring new ways to enhance your book discovery journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>We'd Love to Hear From You</h3>
+                    <p>Have questions, suggestions, or just want to chat about books? Send us a message and we'll get back to you within 24 hours.</p>
+                    <div class="contact-details">
+                        <p>📧 hello@galaxypageshub.com</p>
+                        <p>📞 +1 (555) BOOK-123</p>
+                        <p>📍 123 Cosmic Way, Reading City, RC 12345</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="success-message" id="successMessage" style="display: none;">
+                        ✓ Thank you! Your message has been sent successfully.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Galaxy Pages Hub</h3>
+                    <p>Your cosmic destination for extraordinary reads</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse Books</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Galaxy Pages Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="books.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
