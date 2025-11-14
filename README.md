@@ -1,4 +1,4 @@
-# 📚 **WonderReads Bookstore — Multipage Website**
+# 📚 **GALAXY PAGES HUB — Multipage Website**
 
 *A fun, interactive online bookstore built with HTML5, CSS3, and vanilla JavaScript.*
 
@@ -6,7 +6,7 @@
 
 ## 🌟 **Overview**
 
-WonderReads Bookstore is a fully responsive, multipage website designed to showcase a modern, playful, and engaging online book-shopping experience.
+Galaxy pages hub is a fully responsive, multipage website designed to showcase a modern, playful, and engaging online book-shopping experience.
 The site is built strictly using:
 
 * **HTML5** for semantic structure
@@ -91,7 +91,7 @@ No frameworks. No libraries. 100% vanilla front-end development.
 
 ## 🌐 **Live Demo**
 ```
-https://yourusername.github.io/wonderreads-bookstore/
+https://renee254.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 ```
 
 ---
@@ -117,7 +117,7 @@ https://yourusername.github.io/wonderreads-bookstore/
 
 ---
 
-## ❤️ **Tracy Reneer**
+## ❤️ **Tracy Renee**
 
 Created as part of a front-end development project focusing on mastering the fundamentals of HTML, CSS, and JavaScript.
 
